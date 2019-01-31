@@ -1,7 +1,7 @@
 ﻿namespace CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications
 {
     using AtomicTorch.CBND.CoreMod.Systems.Cursor;
-    using AtomicTorch.CBND.CoreMod.UI.Controls.Game.Player;
+    using AtomicTorch.CBND.CoreMod.UI.Controls.Game.Technologies;
     using AtomicTorch.GameEngine.Common.Client.MonoGame.UI;
     using CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications.Data;
     using System;
@@ -111,7 +111,7 @@
         {
             e.Handled = true;
             this.Hide(quick: true);
-            Menu.Toggle(WindowPlayerMenuTab.InventoryEquipment);
+            Menu.Open<WindowTechnologies>();
         }
 
         private void MouseRightButtonHandler(object sender, MouseButtonEventArgs e)

@@ -7,7 +7,7 @@
   <author>Djekke</author>
   <description>This mod for CryoFall shows notifications of accumulated LP.</description>
   <!-- Please increment this version every time you're releasing an update -->
-  <version>0.1.0</version>
+  <version>0.1.1</version>
   <!-- This date should be auto-updated if mod is packed with our special tool (coming soon) -->
   <updated>31.01.2019</updated>
   <!-- Mod type: 1=server, 2=client+server, 3=client -->
