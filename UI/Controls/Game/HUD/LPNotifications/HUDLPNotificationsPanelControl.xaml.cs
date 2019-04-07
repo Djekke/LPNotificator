@@ -21,7 +21,7 @@
 
         public static void Show(int deltaCount, int total)
         {
-            instance.ShowInternal(deltaCount, total);
+            instance?.ShowInternal(deltaCount, total);
         }
 
         protected override void InitControl()
