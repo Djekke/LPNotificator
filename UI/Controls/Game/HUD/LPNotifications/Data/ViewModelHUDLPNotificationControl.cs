@@ -1,7 +1,7 @@
 ﻿namespace CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications.Data
 {
-    using AtomicTorch.CBND.CoreMod.UI.Controls.Core;
     using System.Windows.Media;
+    using AtomicTorch.CBND.CoreMod.UI.Controls.Core;
 
     public class ViewModelHUDLPNotificationControl : BaseViewModel
     {

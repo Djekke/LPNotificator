@@ -1,18 +1,17 @@
 ﻿namespace CryoFall.LPNotificator.Bootstrappers
 {
+    using System.Windows;
+    using System.Windows.Controls;
+    using System.Windows.Media;
     using AtomicTorch.CBND.CoreMod.Bootstrappers;
     using AtomicTorch.CBND.CoreMod.Characters;
     using AtomicTorch.CBND.CoreMod.Characters.Player;
-    using AtomicTorch.CBND.CoreMod.Systems;
     using AtomicTorch.CBND.CoreMod.UI.Controls.Core;
     using AtomicTorch.CBND.CoreMod.UI.Controls.Game.HUD;
     using AtomicTorch.CBND.GameApi.Data.Characters;
     using AtomicTorch.CBND.GameApi.Data.State;
     using AtomicTorch.CBND.GameApi.Scripting;
     using CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications;
-    using System.Windows;
-    using System.Windows.Controls;
-    using System.Windows.Media;
 
     public class BootstrapperClientLPNotification : BaseBootstrapper
     {
@@ -21,8 +20,6 @@
         private static StateSubscriptionStorage stateSubscriptionStorage;
 
         private static PlayerCharacterPrivateState privateState;
-
-        private static IActionState lastActionState;
 
         private static ushort lp = 0;
 

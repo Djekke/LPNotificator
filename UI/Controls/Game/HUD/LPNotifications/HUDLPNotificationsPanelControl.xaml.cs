@@ -1,6 +1,6 @@
 ﻿namespace CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications
 {
-    using AtomicTorch.CBND.CoreMod.ClientComponents.Timer;
+    using AtomicTorch.CBND.CoreMod;
     using AtomicTorch.GameEngine.Common.Client.MonoGame.UI;
     using System;
     using System.Windows.Controls;
@@ -61,7 +61,7 @@
             this.stackPanelChildren.Add(notificationControl);
 
             // hide after delay
-            ClientComponentTimersManager.AddAction(
+            ClientTimersSystem.AddAction(
                 NotificationHideDelaySeconds,
                 () => notificationControl.Hide(quick: false));
 

@@ -1,13 +1,13 @@
 ﻿namespace CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications
 {
-    using AtomicTorch.CBND.CoreMod.Systems.Cursor;
-    using AtomicTorch.CBND.CoreMod.UI.Controls.Game.Technologies;
-    using AtomicTorch.GameEngine.Common.Client.MonoGame.UI;
-    using CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications.Data;
     using System;
     using System.Windows.Controls;
     using System.Windows.Input;
     using System.Windows.Media.Animation;
+    using AtomicTorch.CBND.CoreMod.Systems.Cursor;
+    using AtomicTorch.CBND.CoreMod.UI.Controls.Game.Technologies;
+    using AtomicTorch.GameEngine.Common.Client.MonoGame.UI;
+    using CryoFall.LPNotificator.UI.Controls.Game.HUD.LPNotifications.Data;
     using Menu = AtomicTorch.CBND.CoreMod.UI.Controls.Core.Menu.Menu;
 
     public partial class HUDLPNotificationControl : BaseUserControl
